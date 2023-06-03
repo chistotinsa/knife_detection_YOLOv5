@@ -16,3 +16,5 @@ However it shows only ~80 mAP50 score, it was trained on one T4 for only 26 epoc
 ```python
 !python detect.py --img 416 --conf-thres 0.2 --source /your/content/source
 ```
+
+- You can see the results in runs/detect
