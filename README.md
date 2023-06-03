@@ -25,4 +25,4 @@ However it shows only ~80 mAP50 score, it was trained on one T4 for only 26 epoc
 - the collected dataset had been supplemented with my own collected and labeled data
 - with an augmentation the dataset was brought to the current size
 - then classic YOLOv5m was finetuned with freezing first 10 layers
-##### you can see the change logic and additional code in train_notebook.ipynb
+#### :dolphin: you can see the change logic and additional code in train_notebook.ipynb
