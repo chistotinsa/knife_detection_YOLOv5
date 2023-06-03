@@ -1,3 +1,4 @@
+![](lpo.bmp)
 # Knife detection with YOLOv5m
 
 This is a YOLOv5 fork repo finetuned with a custom dataset that includes 23285 images of knives.
