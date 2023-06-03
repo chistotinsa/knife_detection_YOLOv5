@@ -6,8 +6,10 @@ However it shows only ~80 mAP50 score, it was trained on one T4 for only 26 epoc
 
 ## Usage
 #### 1. Clone the repo and install all dependencies
-`!git clone https://github.com/chistotinsa/knife_detection_YOLOv5 \
-!pip install -U -r knife_detection_YOLOv5/requirements.txt \
-%cd /content/knife_detection_YOLOv5`
+```python
+!git clone https://github.com/chistotinsa/knife_detection_YOLOv5
+!pip install -U -r knife_detection_YOLOv5/requirements.txt
+%cd /content/knife_detection_YOLOv5
+```
 
 
