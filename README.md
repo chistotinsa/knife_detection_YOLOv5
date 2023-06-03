@@ -19,3 +19,9 @@ However it shows only ~80 mAP50 score, it was trained on one T4 for only 26 epoc
 ```
 
 - You can see the results in runs/detect
+
+#### What was done in fork version
+- the dataset with 8966 images of knives was collected from a couple of open datasets on roboflow.com
+- the collected dataset had been supplemented with my own collected and labeled data
+- with an augmentation the dataset was brought to the current size
+- then classic YOLOv5m was finetuned with freezing first 10 layers
