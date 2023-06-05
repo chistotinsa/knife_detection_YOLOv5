@@ -18,7 +18,7 @@ However it shows only ~67 mAP50 score, it was trained on one T4 for only 26 epoc
 !python detect.py --img 416 --conf-thres 0.2 --source /your/content/source
 ```
 
-***You can see the results in runs/detect
+***You can see the result in runs/detect
 
 #### What was done in fork version
 - the dataset with 8966 images of knives was collected from a couple of open datasets on roboflow.com
