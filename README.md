@@ -2,7 +2,7 @@
 # Knife detection with YOLOv5m
 
 This is a YOLOv5 fork repo finetuned with a custom dataset that includes 23285 images of knives.
-It can detect a knife in person's hands or just a separate knife anywhere on an image/video/CCTV.
+**It can detect a knife in person's hands or just a separate knife anywhere on an image/video/CCTV.**
 However it shows only ~67 mAP50 score, it was trained on one T4 for only 26 epochs, and it is just a pet-project. I hope you'll enjoy it!
 
 ## Usage
