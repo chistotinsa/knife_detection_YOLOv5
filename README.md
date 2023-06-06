@@ -21,7 +21,7 @@ file_url = "https://drive.google.com/file/d/10-mm4GPbpP0CS2F0f9BGd6SUGXAGjAxO/vi
 gdown.download(file_url, output="weights.pt")
 ```
 
-#### 2. Run detect.py with changing --source flag to your own content repo
+#### 3. Run detect.py with changing --source flag to your own content repo
 ```python
 !python detect.py --img 416 --conf-thres 0.2 --source /your/content/source
 ```
