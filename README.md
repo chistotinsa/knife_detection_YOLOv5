@@ -13,6 +13,14 @@ However it shows only ~0.751 mAP50 score, it was trained on one T4 for only 30 e
 %cd /content/knife_detection_YOLOv5
 ```
 
+#### 2. Download model`s weights
+```python
+import gdown
+
+file_url = "https://drive.google.com/file/d/10-mm4GPbpP0CS2F0f9BGd6SUGXAGjAxO/view?usp=sharing"
+gdown.download(file_url, output="weights.pt")
+```
+
 #### 2. Run detect.py with changing --source flag to your own content repo
 ```python
 !python detect.py --img 416 --conf-thres 0.2 --source /your/content/source
