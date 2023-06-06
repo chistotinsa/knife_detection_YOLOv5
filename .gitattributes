@@ -1,3 +1,2 @@
 # this drop notebooks from GitHub language stats
 *.ipynb linguist-vendored
-*.pt filter=lfs diff=lfs merge=lfs -text
